@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
-# options.add_argument("--headless")
+options.add_argument("--headless")
 options.add_experimental_option("detach", True)
 
 file_path = "Your Excel file Path"
