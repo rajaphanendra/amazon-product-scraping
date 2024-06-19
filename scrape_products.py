@@ -12,7 +12,7 @@ options.add_argument("--start-maximized")
 # options.add_argument("--headless")
 options.add_experimental_option("detach", True)
 
-file_path = "/home/raja/Documents/productInfo.xlsx"
+file_path = "Your Excel file Path"
 book = openpyxl.load_workbook(file_path)
 # sheet = book.active
 
